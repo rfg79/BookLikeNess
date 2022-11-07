@@ -1,0 +1,29 @@
+@charset "utf-8";
+nav{
+    display:grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background: #e0784f;
+    font-family: sans-serif;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index: 1000;
+    }
+
+nav .barnav{
+    display:grid;
+    grid-template-columns: repeat(2,auto);
+    margin-right: 30px;
+    }
+nav .barnav div{
+    padding: 10px 20px;
+    }
+nav .barnav div:hover{
+    cursor: pointer;
+    background:#530D0D;
+    }
+.contenido{
+    margin-top: 5%;
+    height: 1100px;
+}
